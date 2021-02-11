@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Excel VBA筆記
 
-You can use the [editor on GitHub](https://github.com/Hungsiu/ExcelVBAnote/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+2020年突然被叫去管倉庫(真的，別懷疑，真的是叫軟體工程師去管倉庫），隨著資料量越來越多，傳統的函數已經漸漸無法負荷每天要處理的資料量。於是興起了研究VBA的念頭，希望能透過程式讓我的工作變得更輕鬆
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+希望這份筆記可以幫助到想要減少工作時間的你
 
-### Markdown
+## 環境設置
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Excel在安裝好後不會預設開啟開發人員選項，因此第一件要做的事就是將開發人員選項打開
 
-```markdown
-Syntax highlighted code block
+<br/>
 
-# Header 1
-## Header 2
-### Header 3
+- 示意圖
 
-- Bulleted
-- List
+![image](./img/開發人員in功能區.jpg)
 
-1. Numbered
-2. List
+<br/>
 
-**Bold** and _Italic_ and `Code` text
+接下來跟著我的步驟做吧！
 
-[Link](url) and ![Image](src)
-```
+    1.從「檔案」那邊打開選單
+    2.選擇「選項」，將小視窗打開
+    3.選擇「自訂功能區」
+    4.將「開發人員打勾」
+    5.按下確定，然後就會發現「開發人員」的工作區出現了
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+* 「檔案」在什麼地方
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hungsiu/ExcelVBAnote/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![image](./img/ch0_前置準備/檔案在功能區中的位置.jpg)
 
-### Support or Contact
+- 「選項」的位置
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](./img/ch0_前置準備/選項的位置.jpg)
+
+- 調整「自訂功能區」
+
+![image](./img/ch0_前置準備/自訂功能區的設定.jpg)
+
+<br/>
+
+既然大家都開啟「開發人員」，那就要繼續往下囉
+
