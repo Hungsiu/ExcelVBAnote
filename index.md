@@ -8,8 +8,6 @@
 
 Excel在安裝好後不會預設開啟開發人員選項，因此第一件要做的事就是將開發人員選項打開
 
-<br/>
-
 - 示意圖
 
 ![image](./img/開發人員in功能區.jpg)
@@ -39,9 +37,23 @@ Excel在安裝好後不會預設開啟開發人員選項，因此第一件要做
 
 步驟可參考youtube影片
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Koe_JvnvAcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/Koe_JvnvAcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 
 既然大家都開啟「開發人員」，那就要繼續往下囉
 
+<br/>
+
+## 控制項與巨集
+
+巨集（英文：Macro），是一種批次處理的稱謂
+
+[維基百科](https://zh.wikipedia.org/wiki/%E5%B7%A8%E9%9B%86)
+
+<br/>
+
+按照我自己的理解就是：你有一系列動作，有一套SOP，電腦會隨著你的SOP幫你做出那些動作
+
+例如：
+動作遊戲裡有些招式的指令是↓↘→+AB，巨集就是電腦可以不斷幫你按照這個順序敲擊你的鍵盤，幫你重複執行這個指令
