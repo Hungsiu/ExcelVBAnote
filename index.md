@@ -37,6 +37,10 @@ Excel在安裝好後不會預設開啟開發人員選項，因此第一件要做
 
 ![image](./img/ch0_前置準備/自訂功能區的設定.jpg)
 
+步驟可參考youtube影片
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Koe_JvnvAcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br/>
 
 既然大家都開啟「開發人員」，那就要繼續往下囉
