@@ -4,7 +4,7 @@
 
 後來確實因為VBA幫我省下許多時間，不過那些功能到底能不能透握函數實現，我也沒追根究底了，也許只是我不會用函數，但VBA的操作相對於函數來說對我比較好上手，最後希望這份筆記可以幫助到想要減少工作時間的你
 
-<br/>
+---
 
 # 01-環境設置
 
@@ -37,8 +37,26 @@ Excel在安裝好後不會預設開啟開發人員選項，因此第一件要做
 
 ![image](./img/ch0_前置準備/自訂功能區的設定.jpg)
 
+<br/>
+
 步驟可參考youtube影片
 
 <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/Koe_JvnvAcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br/>
+
 既然大家都開啟「開發人員」了，那就要繼續往下囉
+
+---
+
+# 02-基本操作
+
+---
+
+# 03-
+
+---
+
+# 04-
+
+---
