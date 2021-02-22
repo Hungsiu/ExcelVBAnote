@@ -208,6 +208,15 @@ End Sub
 
 另外，Range可以一次指出多個儲存格，例如第二次呼叫Range時，在參數內填入"B2:D2"，便是一次指出從B2到D2之間的所有儲存格。那當然也不限定要在同一行的儲存格才可以被指出，Range指出的儲存格相當於是我們用滑鼠在Excel表格中選出來的一樣，從B2點擊拖拉至D2結束，所以聰明的你應該可以知道：若是參數填入"B2:D3"，這樣會有哪些儲存格被選出來了吧！
 
+<br/>
+
+現在已經有程式碼，也知道這支程式碼的作用，那接下來就是要執行它囉
+
+首先，先回到Excel表格的視窗，將功能區切換至「開發人員」，再由「插入」中選擇「按鈕」並在表格上以拖拉的方式新增一個按鈕，新增出「按鈕」的同時需要指定巨集，所以便將我們寫好的Button_Click()指定給它吧。接下來便能透過這個按鈕當作媒介，呼叫我們剛剛寫的程式了
+
+![Image](./img/ch3_基本操作/新增按鈕並指定巨集.gif)
+
+
 ## 033-巨集內使用公式
 
 ---
@@ -215,3 +224,11 @@ End Sub
 # 04-程式的領域
 
 ---
+
+# Others
+
+[Microsoft Docs－Office VBA的入門](https://docs.microsoft.com/zh-tw/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
+
+[Microsoft Docs－了解VBA語法](https://docs.microsoft.com/zh-tw/office/vba/language/concepts/getting-started/understanding-visual-basic-syntax)
+
+[Microsoft Docs－Office VBA參考](https://docs.microsoft.com/zh-tw/office/vba/api/overview/)
