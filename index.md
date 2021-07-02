@@ -228,7 +228,7 @@ End Sub
 
 ---
 
-# Others
+# Others-其他資源
 
 [Microsoft Docs－Office VBA的入門](https://docs.microsoft.com/zh-tw/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
 
