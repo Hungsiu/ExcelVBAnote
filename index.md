@@ -224,7 +224,7 @@ End Sub
 
 [Microsoft Docs－Office VBA參考](https://docs.microsoft.com/zh-tw/office/vba/api/overview/)
 
-# Excel.NET
+# 番外篇－Excel.NET
 
 ~~沒有啦，我自己亂取的，不知道有沒有這個東西~~
 
@@ -259,3 +259,4 @@ End Sub
 在Visual Studio中的NuGet套件管理視窗就能直接搜尋到囉，相當方便
 
 ![Image](./img/ExcelDotNet/NuGet_SearchResult.png)
+
