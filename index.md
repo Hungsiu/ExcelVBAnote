@@ -224,7 +224,7 @@ End Sub
 
 [Microsoft Docs－Office VBA參考](https://docs.microsoft.com/zh-tw/office/vba/api/overview/)
 
-# Excel.Net
+# Excel.NET
 
 ~~沒有啦，我自己亂取的，不知道有沒有這個東西~~
 
@@ -235,3 +235,19 @@ End Sub
 - EPPlus： 是一個輕量級的.NET Excel檔案處理函式庫，它提供了一個物件導向的API來讀取、寫入和修改Excel檔案，有很好的跨平台支援。
 - NPOI：是一個開源的.NET Excel檔案處理函式庫，提供對Excel檔案格式的基本控制，並允許訪問Excel檔案的內容。
 - DocumentFormat.OpenXml：是Microsoft提供的.NET函式庫，基於OpenXML規格，可以直接讀寫Excel檔案。
+
+原本看完想用DocumentFormat.OpenXml就好
+
+欸，等等!
+大AI時代當然多問幾個AI啊
+
+後來又問了Gemini，它推薦MiniExcel、ExcelDataReader與ClosedXML
+
+| 特性 | **MiniExcel** | **ExcelDataReader** | **ClosedXML** |
+| :--- | :--- | :--- | :--- |
+| **主要定位** | 高效能、大數據量、低記憶體 | 輕量化、純讀取流 (Stream) | 物件導向 (DOM)、功能全能 |
+| **讀取速度** | 極快 (Streaming 讀取) | 快 | 一般 |
+| **記憶體佔用** | **極低** (適合伺服器環境) | 低 | 高 (需載入整個文件物件) |
+| **寫出功能** | 簡單 (強項在於模板填充) | 無 (僅限讀取) | **極強** (支援複雜格式、公式) |
+| **優點** | 適合處理百萬級資料，不爆記憶體 | 支援舊版 `.xls`，不依賴 Office | 程式碼直覺，能精確控制每個儲存格樣式 |
+| **缺點** | 格式控制靈活度較低 | 無寫入功能，需搭配其他套件 | 處理超大檔案時容易發生 `OutOfMemory` |
