@@ -223,3 +223,15 @@ End Sub
 [Microsoft Docs－了解VBA語法](https://docs.microsoft.com/zh-tw/office/vba/language/concepts/getting-started/understanding-visual-basic-syntax)
 
 [Microsoft Docs－Office VBA參考](https://docs.microsoft.com/zh-tw/office/vba/api/overview/)
+
+# Excel.Net
+
+~~沒有啦，我自己亂取的，不知道有沒有這個東西~~
+
+最近又接到要處理大量Excel資料的任務了，~~然後我忘記之前怎麼寫在C#內處理Excel資料的~~所以趁這次機會把C#處理Excel資料的研究過程做個紀錄
+
+問了gemma是推薦EPPlus、NPOI與DocumentFormat.OpenXml，下面介紹一下gemma的評價
+
+- EPPlus： 是一個輕量級的.NET Excel檔案處理函式庫，它提供了一個物件導向的API來讀取、寫入和修改Excel檔案，有很好的跨平台支援。
+- NPOI：是一個開源的.NET Excel檔案處理函式庫，提供對Excel檔案格式的基本控制，並允許訪問Excel檔案的內容。
+- DocumentFormat.OpenXml：是Microsoft提供的.NET函式庫，基於OpenXML規格，可以直接讀寫Excel檔案。
