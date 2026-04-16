@@ -251,3 +251,11 @@ End Sub
 | **寫出功能** | 簡單 (強項在於模板填充) | 無 (僅限讀取) | **極強** (支援複雜格式、公式) |
 | **優點** | 適合處理百萬級資料，不爆記憶體 | 支援舊版 `.xls`，不依賴 Office | 程式碼直覺，能精確控制每個儲存格樣式 |
 | **缺點** | 格式控制靈活度較低 | 無寫入功能，需搭配其他套件 | 處理超大檔案時容易發生 `OutOfMemory` |
+
+最後我決定先試試看MiniExcel了
+
+## MiniExcel
+
+在Visual Studio中的NuGet套件管理視窗就能直接搜尋到囉，相當方便
+
+![Image](./img/ExcelDotNet/NuGet_SearchResult.png)
